@@ -2,8 +2,6 @@ name: JRM-Renew
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */48 * * *'   # 每 48 小时触发一次（有效期 ~3 天）
 
 jobs:
   run_jrm_renew:
